@@ -7,10 +7,16 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "dev": "nodemon ./server.js"
+    "dev": "nodemon ./server.js",
+    "start":  " node ./ server.js"
   },
  
   "devDependencies": {
     "nodemon": "^2.0.3"
+  },
+  
+  "engines" : {
+    "node": "12.x"
   }
+
 }
